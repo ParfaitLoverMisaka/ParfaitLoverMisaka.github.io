@@ -3102,13 +3102,6 @@ table .code {
 .vpower.txt-right {
   display: none !important;
 }
-body {
-  background: url("/img/pc-bg.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-}
 @media only screen and (max-width: 1200px) {
   body {
     background: url("/img/bk.jpg");
