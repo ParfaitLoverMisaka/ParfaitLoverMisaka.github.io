@@ -2363,7 +2363,8 @@ main:not(.up) .search #search-header input {
 }
 #Archives,
 #Categories,
-#Tags {
+#Tags,
+#ImageBox {
   margin: 0 10px;
   background-color: var(--theme-bg-trans1);
   overflow-y: auto;
@@ -2371,14 +2372,17 @@ main:not(.up) .search #search-header input {
 #Archives,
 #Categories,
 #Tags,
+#ImageBox,
 #Archives h1,
 #Categories h1,
-#Tags h1 {
+#Tags h1,
+#ImageBox h1 {
   transition: 0.3s;
 }
 #Archives h1,
 #Categories h1,
-#Tags h1 {
+#Tags h1,
+#ImageBox h1 {
   margin: 0;
   padding: 0 15px;
   color: var(--theme-text-rev);
@@ -2390,17 +2394,21 @@ main:not(.up) .search #search-header input {
   #Archives:hover,
   #Categories:hover,
   #Tags:hover,
+  #ImageBox:hover,
   #Archives:target,
   #Categories:target,
-  #Tags:target {
+  #Tags:target,
+  #ImageBox:target {
     background-color: var(--theme-bg-trans2);
   }
   #Archives:hover h1,
   #Categories:hover h1,
   #Tags:hover h1,
+  #ImageBox:hover h1,
   #Archives:target h1,
   #Categories:target h1,
-  #Tags:target h1 {
+  #Tags:target h1,
+  #ImageBox:target h1 {
     background-color: var(--theme-highlight);
   }
 }
@@ -2472,6 +2480,40 @@ main:not(.up) .search #search-header input {
 }
 #Tags p {
   text-align: center;
+}
+#ImageBox {
+  margin: 0 10px;
+  background-color: var(--theme-bg-trans1);
+  overflow: hidden;
+}
+#ImageBox,
+#ImageBox h1 {
+  transition: 0.3s;
+}
+#ImageBox h1 {
+  margin: 0;
+  padding: 0 15px;
+  color: var(--theme-text-rev);
+  background-color: var(--theme-bg-light);
+  font-size: medium;
+  font-family: BenderLight;
+}
+@media (min-width: 769px) {
+  #ImageBox:hover,
+  #ImageBox:target {
+    background-color: var(--theme-bg-trans2);
+  }
+  #ImageBox:hover h1,
+  #ImageBox:target h1 {
+    background-color: var(--theme-highlight);
+  }
+}
+#ImageBox img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  box-shadow: none;
+  margin: 0;
 }
 #navigation a {
   width: 100%;
