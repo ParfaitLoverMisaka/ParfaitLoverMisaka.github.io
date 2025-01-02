@@ -364,7 +364,7 @@ aside footer {
   color: #000;
   font-size: small;
   font-weight: normal;
-  font-family: sans-serif;
+  font-family: Bender;
   line-height: 18px;
 }
 .icp-title {
@@ -2363,8 +2363,7 @@ main:not(.up) .search #search-header input {
 }
 #Archives,
 #Categories,
-#Tags,
-#ImageBox {
+#Tags {
   margin: 0 10px;
   background-color: var(--theme-bg-trans1);
   overflow-y: auto;
@@ -2372,17 +2371,14 @@ main:not(.up) .search #search-header input {
 #Archives,
 #Categories,
 #Tags,
-#ImageBox,
 #Archives h1,
 #Categories h1,
-#Tags h1,
-#ImageBox h1 {
+#Tags h1 {
   transition: 0.3s;
 }
 #Archives h1,
 #Categories h1,
-#Tags h1,
-#ImageBox h1 {
+#Tags h1 {
   margin: 0;
   padding: 0 15px;
   color: var(--theme-text-rev);
@@ -2394,21 +2390,17 @@ main:not(.up) .search #search-header input {
   #Archives:hover,
   #Categories:hover,
   #Tags:hover,
-  #ImageBox:hover,
   #Archives:target,
   #Categories:target,
-  #Tags:target,
-  #ImageBox:target {
+  #Tags:target {
     background-color: var(--theme-bg-trans2);
   }
   #Archives:hover h1,
   #Categories:hover h1,
   #Tags:hover h1,
-  #ImageBox:hover h1,
   #Archives:target h1,
   #Categories:target h1,
-  #Tags:target h1,
-  #ImageBox:target h1 {
+  #Tags:target h1 {
     background-color: var(--theme-highlight);
   }
 }
@@ -2477,6 +2469,7 @@ main:not(.up) .search #search-header input {
   overflow: visible;
   height: 100%;
   flex-grow: 1;
+  margin-bottom: 20px;
 }
 #Tags p {
   text-align: center;
@@ -2485,6 +2478,7 @@ main:not(.up) .search #search-header input {
   margin: 0 10px;
   background-color: var(--theme-bg-trans1);
   overflow: hidden;
+  margin-bottom: 20px;
 }
 #ImageBox,
 #ImageBox h1 {
