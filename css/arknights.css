@@ -241,6 +241,7 @@ aside::-ms-scrollbar {
 }
 aside h1 {
   transition: 0.6s;
+  text-align: center;
   font-family: BenderLight, sans-serif;
   margin-top: 0;
 }
@@ -327,11 +328,13 @@ aside footer {
   margin: 0;
   padding: 0 10px;
   font-size: medium;
+  text-align: center;
   margin-bottom: 0;
   margin-top: 0;
 }
 #aside-block h2 {
   margin-bottom: 0;
+  text-align: center;
   margin-top: 0;
 }
 #total-archives .total-number {
@@ -345,7 +348,11 @@ aside footer {
     background-color: var(--theme-highlight);
   }
 }
-#description p {
+#description1 p {
+  margin-bottom: 0;
+  text-align: center;
+}
+#description2 p {
   margin: unset;
   text-align: center;
 }
