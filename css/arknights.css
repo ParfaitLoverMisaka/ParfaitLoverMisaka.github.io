@@ -2504,7 +2504,7 @@ main:not(.up) .search #search-header input {
 }
 #ImageBox img {
   max-width: 100%;
-  height: auto;
+  height: fit-content;
   display: block;
   box-shadow: none;
   margin: 0;
