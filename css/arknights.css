@@ -2337,6 +2337,7 @@ main:not(.up) .search #search-header input {
   display: flex;
   justify-content: stretch;
   position: relative;
+  padding-bottom: 60px;
 }
 #archive-aside {
   scrollbar-width: none;
@@ -2438,6 +2439,8 @@ main:not(.up) .search #search-header input {
   box-sizing: border-box;
   padding: 10px;
   padding-bottom: 30px;
+  overflow-y: auto;
+  max-height: 600px;
 }
 .article-item {
   padding-inline: 20px;
