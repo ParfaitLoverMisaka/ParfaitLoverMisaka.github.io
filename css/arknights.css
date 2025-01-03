@@ -2429,7 +2429,6 @@ main:not(.up) .search #search-header input {
 }
 #Archives time {
   color: var(--theme-text-light);
-  padding: 0 0 0 20px;
 }
 .categories,
 .tags {
@@ -2441,6 +2440,7 @@ main:not(.up) .search #search-header input {
   padding-bottom: 30px;
 }
 .article-item {
+  padding-inline: 20px;
   display: flex;
   position: relative;
   margin-bottom: 15px;
@@ -2477,7 +2477,7 @@ main:not(.up) .search #search-header input {
 #ImageBox {
   margin: 0 10px;
   background-color: var(--theme-bg-trans1);
-  overflow: hidden;
+  overflow: visible;
   margin-bottom: 20px;
 }
 #ImageBox,
